@@ -1,5 +1,6 @@
 service: coreApi
 
+
 provider:
   name: aws
   runtime: nodejs6.10

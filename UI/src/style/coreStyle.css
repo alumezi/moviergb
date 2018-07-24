@@ -1,8 +1,16 @@
 html {
   background-color: #141414; }
 
+<<<<<<< HEAD
 .main {
   display: flex; }
+=======
+.ui{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+>>>>>>> 7453d8a72882ae98a9d2f043467d946aca92d905
 
 .ui {
   display: flex;
