@@ -2,7 +2,7 @@
   "name": "serverless-node-rest-api",
   "version": "1.0.0",
   "description": "Serverless REST HTTP API for CRUD operations on DynamoDB",
-  "author": "Fernando Medina Corey",
+  "author": "Arbnor Lumezi",
   "license": "MIT",
   "dependencies": {
     "serverless": "^1.28.0",
