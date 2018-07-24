@@ -1,36 +1,47 @@
-html{
-    background-color: rgb(20, 20, 20);
-}
+html {
+  background-color: #141414; }
 
-.ui{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-}
+.main {
+  display: flex; }
 
-.mainPoster{
-    display: flex;
-    justify-content: center;
-}
+.ui {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 50%; }
 
-
-img{
+.mainPoster {
+  display: flex;
+  justify-content: center; }
+  .mainPoster img {
     width: 100vh;
-    height: 69vh;
-}
+    height: 69vh; }
 
-.colorContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    max-height:200px ;
-}
+.colorContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  max-height: 200px; }
 
-.color{
-    margin: 5px;
-    width: 85.7px;
-    height: 20vh;
-}
+.color {
+  margin: 5px;
+  width: 85.7px;
+  height: 20vh; }
 
+.thumbnail {
+  padding: 10.4px; }
+  .thumbnail img {
+    flex-grow: 1;
+    width: 150px;
+    height: 250px;
+    border-radius: 2px; }
+
+.landing {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start; }
+
+/*# sourceMappingURL=coreStyle.css.map */

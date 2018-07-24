@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import './App.scss';
+import Landing from './ui/landing';
+import Core from './core/coreComponent'
 
 class App extends Component {
   render() {
     return(
-      <div>asd</div>
+      <div className="main">
+        <Landing/>
+
+      </div>
     )
     
   }

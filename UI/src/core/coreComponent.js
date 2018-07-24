@@ -9,8 +9,8 @@ class App extends Component {
     constructor(){
         super();
         this.state={
-            arrayOfColors : ["red", "green", "blue", "orange", "yellow", "black", "teal", "brown", "white", "teal"],
-            url : "https://www.slashfilm.com/wp/wp-content/images/spiderman-homecoming-spidey-corner-crouch.jpg"
+            arrayOfColors : ["rgb(34,34,34)", "rgb(84,34,34)", "rgb(34,54,34)", "rgb(34,34,311)", "white", "black", "teal", "brown", "white", "teal"],
+            url : "https://www.avsforum.com/wordpress/wp-content/uploads/2017/07/Dunkirk.jpg"
         }
     }
 
