@@ -3,9 +3,10 @@ import '../style/coreStyle.css';
 
 
 const mainPoster = (props) => {
-    console.log(props.props)
+
         return (
             <div className="mainPoster">
+            <button onClick={()=> props.onRouteChange(true, "") } >Back</button>
             <img alt="moviePoster" src={props.props} />
             </div>
         )

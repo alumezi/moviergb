@@ -29,7 +29,7 @@ class App extends Component {
   render() {
     return(
         <div className="landing" >
-            {this.state.arr.map((object)=>{ return <Thumbnail props={object.url} key={object.id} id={object.id} style={{flexGrow: 1}}/>   })}
+            {this.state.arr.map((object)=>{ return <Thumbnail props={object.url} key={object.id} id={object.id} style={{flexGrow: 1}} onRouteChange={this.props.onRouteChange} />   })}
         </div> 
 
     )

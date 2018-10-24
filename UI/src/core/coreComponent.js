@@ -9,15 +9,14 @@ class App extends Component {
     constructor(){
         super();
         this.state={
-            arrayOfColors : ["rgb(34,34,34)", "rgb(84,34,34)", "rgb(34,54,34)", "rgb(34,34,311)", "white", "black", "teal", "brown", "white", "teal"],
-            url : "https://www.avsforum.com/wordpress/wp-content/uploads/2017/07/Dunkirk.jpg"
+            arrayOfColors : ["rgb(34,34,34)", "rgb(84,34,34)", "rgb(34,54,34)", "rgb(34,34,311)", "white", "black", "aquamarine", "brown", "green", "teal"]
         }
     }
 
   render() {
     return(
       <div className="ui" >
-        <MainPoster props={this.state.url}/>
+        <MainPoster props={this.props.url} onRouteChange={this.props.onRouteChange} />
         
 
         <div className="colorContainer">
