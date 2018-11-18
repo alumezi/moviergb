@@ -1,46 +1,49 @@
-html{
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+html {
   background-color: rgb(20, 20, 20);
 }
 
-.main{
+.main {
   display: flex;
 }
 
-.ui{
+.ui {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   width: 50%;
- 
 }
 
-.mainPoster{
+.mainPoster {
   display: flex;
   justify-content: center;
-  img{
-  width: 100vh;
-  height: 69vh;
-}
+  img {
+    width: 100vh;
+    height: 69vh;
+  }
 }
 
-
-.colorContainer{
+.colorContainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: center;
-  max-height:200px ;
+  max-height: 200px;
 }
 
-.color{
+.color {
   margin: 5px;
   width: 85.7px;
   height: 20vh;
 }
 
-.thumbnail{
+.thumbnail {
   padding: 10.4px;
-  img{
+  img {
     flex-grow: 1;
     width: 150px;
     height: 250px;
@@ -48,17 +51,10 @@ html{
   }
 }
 
-.landing{
+.landing {
   padding: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-
-  
 }
-
-
-
-
-
